@@ -8,8 +8,14 @@ li:not(:first-child) {
     border-left: #ddd 1px solid;
   }
 
+a:hover{
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 5px;
+  }
 
- ::placeholder{
+
+::placeholder{
     color: #ccc;
 }
 
@@ -128,6 +134,8 @@ a, li, p{
     line-height: 2em;
     color: #999;
     text-decoration: none;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 
